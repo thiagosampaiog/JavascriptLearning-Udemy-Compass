@@ -1,0 +1,116 @@
+
+body {
+  background: linear-gradient(to right, #00c6ff, #0072ff); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', sans-serif; 
+}
+
+
+.container {
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 4em;
+  margin-bottom: 0.2em;
+  color: rgb(3, 44, 90); 
+  font-family: 'Roboto', sans-serif; 
+  -webkit-text-stroke-width: 0.05em;
+  border: dotted #ffffff;
+  border-radius: 2em;
+  border-width: 0.1em;
+  padding: 0.2em;
+  color: transparent; 
+  background-image: linear-gradient(to right, #001f7b, #ffffff); 
+  background-clip: text; 
+  -webkit-background-clip: text; 
+}
+
+
+#display {
+  font-size: 5em;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+  color: white; 
+  font-family: 'Roboto', sans-serif; 
+}
+
+
+button {
+  font-size: 2em;
+  padding: 0.5em 1.5em;
+  margin: 0 0.5em;
+  background-color: #0072ff; 
+  color: white; 
+  border: none; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  cursor: pointer; 
+  transition: background-color 0.3s, transform 0.3s; 
+}
+
+
+button:hover {
+  background-color: #005bb5; 
+  transform: translateY(-3px); 
+}
+
+
+button:active {
+  transform: translateY(1px); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+#display {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+}
+
+body {
+  background-color: aquamarine;
+} */
